@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="47dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textColor="#131313" />
+
+        <TextView
+            android:id="@+id/txtDestination"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:text="TextView"
+            android:textColor="#131313" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:text="TextView"
+            android:textColor="#131313" />
+
+        <TextView
+            android:id="@+id/txtRiskAssessment"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:text="TextView"
+            android:textColor="#131313" />
+
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:text="TextView"
+            android:textColor="#131313" />
+
+        <TextView
+            android:id="@+id/txtTransportation"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:text="TextView"
+            android:textColor="#131313" />
+
+        <TextView
+            android:id="@+id/txtHotel"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:text="TextView"
+            android:textColor="#131313" />
+
+        <TextView
+            android:id="@+id/txtHotel2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:text="TextView"
+            android:textColor="#131313" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="-40dp"
+            android:background="@color/yellow"
+            android:text="Save" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
